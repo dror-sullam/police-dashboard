@@ -1,0 +1,6 @@
+username,password_hash,avatar_path,display_name
+dror_sullam,PBKDF2$120000$ZHJvci1zYWx0$a4vixOLWErtQxmXxy73MXwGsq7YIVA/O1eXSP6RX1ZU=,https://i.pravatar.cc/128?img=68,Dror Sullam
+genadi_krigan,PBKDF2$120000$Z2VuYWRpLXNhbHQ=$7TC14J8uOY7LrPS+mFhxSNMm0jK7aGbW9QbTkDYehl0=,https://i.pravatar.cc/128?img=11,Genadi Krigan
+daniel_drori,PBKDF2$120000$ZGFuaWVsLXNhbHQ=$yGNdnsOmB+i6PLDtXYqAleYS5Au9jVNmEXiDkpto0Xs=,https://i.pravatar.cc/128?img=56,Daniel Drori
+shahar_cohen,PBKDF2$120000$c2hhaGFyLXNhbHQ=$rnIsk3X8/kW20W6oEQU/ZQtEbEJdVylc72B5/UcYAY8=,https://i.pravatar.cc/128?img=14,Shahar Cohen
+yosef_chekol,PBKDF2$120000$eW9zZWYtc2FsdA==$glKA9ZR+Cp4Ja5tbLujEAyzJT9qKCwjN+XyHBD/Rv9Y=,https://i.pravatar.cc/128?img=7,Yosef Chekol

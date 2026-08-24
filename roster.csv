@@ -1,0 +1,6 @@
+username,role,shift,availability
+dror_sullam,Investigator,08:00 - 16:00,On duty
+genadi_krigan,Patrol officer,16:00 - 00:00,On duty
+daniel_drori,Analyst,08:00 - 16:00,On duty
+shahar_cohen,Patrol officer,00:00 - 08:00,On duty
+yosef_chekol,Dispatcher,08:00 - 16:00,Standby
