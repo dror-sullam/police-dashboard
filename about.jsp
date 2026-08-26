@@ -34,7 +34,7 @@
     <main class="dashboard about-panel">
       <header>
         <div>
-          <h1>About the Project</h1>
+          <h1>About the Dashboard</h1>
           <p class="about-kicker">A shared view of local operations</p>
         </div>
         <span class="status">System status: online</span>
