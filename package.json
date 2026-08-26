@@ -1,0 +1,15 @@
+{
+  "name": "police-dashboard",
+  "version": "1.0.0",
+  "description": "A small police operations dashboard for a DevOps course project. It presents active cases, recent alerts, and duty roster information.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "selenium-side-runner": "^4.0.13"
+  }
+}
