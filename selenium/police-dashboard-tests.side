@@ -1,0 +1,167 @@
+{
+  "id": "d7ef5235-df00-4034-aee1-2b3bc3418674",
+  "version": "2.0",
+  "name": "Police Dashboard Tests",
+  "url": "http://18.157.209.253:8080/dror-genadi-daniel-shahar-yosef/",
+  "tests": [{
+    "id": "4a2ee2d5-0310-48d6-93cf-048edbe57c02",
+    "name": "Login and navigation",
+    "commands": [{
+      "id": "37725e39-6231-4858-bff7-9a3e98ca1a4c",
+      "comment": "",
+      "command": "open",
+      "target": "http://18.157.209.253:8080/dror-genadi-daniel-shahar-yosef/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aa2a3fb8-9b60-4fca-a49d-ebc57e285801",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Police Login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "779e6344-b1c6-4ca4-be65-80cd74bbaf3c",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd27a275-a0e4-4470-a426-620cd623c970",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "wrong_user"
+    }, {
+      "id": "9944660a-b70f-4960-bb28-d565a3292253",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "wrong_password"
+    }, {
+      "id": "392ecd38-97b1-48b5-9878-865cba860691",
+      "comment": "",
+      "command": "click",
+      "target": "css=button[type=\"submit\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1fba8f55-6309-4bc4-832d-0a9702b71b84",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.login-error",
+      "targets": [],
+      "value": "Invalid credentials."
+    }, {
+      "id": "b5bfa414-1e87-45a3-a3b4-e4c3fc8ee3ac",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a9ae3e8-e3aa-4571-b674-2892ad8122af",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "dror_sullam"
+    }, {
+      "id": "6de18642-8e72-4654-9b75-25265c2e2e1b",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "dror_sullam"
+    }, {
+      "id": "7a189ec6-5cd9-407a-b9a1-25df800579cb",
+      "comment": "",
+      "command": "click",
+      "target": "css=button[type=\"submit\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "436bb800-91ff-46d8-9d60-80c6487a3dd9",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Police Dashboard",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cd6dc2f3-e827-4271-9c2a-69492f797dac",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.status",
+      "targets": [],
+      "value": "SYSTEM STATUS: ONLINE"
+    }, {
+      "id": "8f57e125-e43f-4298-b3b6-6e18d89333a7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.about-button",
+      "targets": [
+        ["css=.about-button", "css:finder"],
+        ["xpath=//a[contains(text(),'About')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'about.jsp')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23923859-1bf7-41cf-bce9-8bb264da4428",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "About Police Dashboard",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "29f058e6-f0c3-471c-bd8a-786fb8ebb7b3",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4a2ee2d5-0310-48d6-93cf-048edbe57c02"]
+  }],
+  "urls": ["http://18.157.209.253:8080/dror-genadi-daniel-shahar-yosef/"],
+  "plugins": []
+}
