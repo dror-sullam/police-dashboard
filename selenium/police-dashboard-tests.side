@@ -67,6 +67,13 @@
       "targets": [],
       "value": ""
     }, {
+      "id": "ac492032-8ab7-4f8f-add6-929589943f7a",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.login-error",
+      "targets": [],
+      "value": "5000"
+    }, {
       "id": "1fba8f55-6309-4bc4-832d-0a9702b71b84",
       "comment": "",
       "command": "verifyText",
@@ -120,6 +127,13 @@
       "targets": [],
       "value": ""
     }, {
+      "id": "1d27330a-a553-45e2-bcc8-80c632c8f86c",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.dashboard",
+      "targets": [],
+      "value": "5000"
+    }, {
       "id": "436bb800-91ff-46d8-9d60-80c6487a3dd9",
       "comment": "",
       "command": "assertTitle",
@@ -145,6 +159,13 @@
         ["xpath=//a", "xpath:position"]
       ],
       "value": ""
+    }, {
+      "id": "e4e01d69-ca64-46d0-a7cf-cbac24a48ae7",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.about-panel",
+      "targets": [],
+      "value": "5000"
     }, {
       "id": "23923859-1bf7-41cf-bce9-8bb264da4428",
       "comment": "",
